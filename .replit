@@ -1,2 +1,5 @@
-language = 'python\nbash'
+language = 'python'
 run = 'sh run.sh'
+
+[packager]
+ignoredPackages=["tensorflow"]
